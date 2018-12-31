@@ -1,0 +1,101 @@
+body {
+  background-color: whitesmoke;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.noteHeader{
+  width: 40%;
+  margin-left: 200px;
+  margin-right: auto;
+
+}
+
+
+
+.jumbotron{
+  background-image: url(https://images.pexels.com/photos/1061634/pexels-photo-1061634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350);
+  background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+   color: white ;
+   text-align: center;
+   min-width: 100%; 
+}
+
+.lead{
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
+.display-3{
+  font-weight: bolder;
+
+}
+
+.nav-link{
+  color:whitesmoke;
+}
+
+.fixed{
+  position: fixed;
+  float: right; 
+  width: 40%; 
+  right: 20px;
+}
+
+#articles {
+  display: inline-block;
+  overflow: auto;
+  height: 700px; 
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+}
+input {
+  height: 36px;
+  font-size: 20px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+#articleNotes, #articleSave, #articleUnsave {
+  margin-top: 10px;
+}
+
+.articleHeader {
+  font-size: 20px;
+}
+
+
+#articleSave{
+  margin-left: 10px;
+}
+
+#savenote{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.noteCard{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+
+.modal-title{
+  font-size: 30px;
+}
+
+
+.card{
+  min-width: 100%;
+}
